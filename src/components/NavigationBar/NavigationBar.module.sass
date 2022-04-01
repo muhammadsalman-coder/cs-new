@@ -1,0 +1,298 @@
+@import ../../styles/helpers
+
+.navbar 
+  height: $nav-size
+  background-color: $white
+  padding: 0 1rem
+  //border-bottom: $border
+  //box-shadow: 0 .3rem 2rem rgba(0, 0, 0, 0.25)
+  box-shadow: 0px 0px 8px rgba(4, 17, 29 , 0.25)
+  display: flex
+  align-items: center
+  justify-content: space-between
+  +dark
+    background-color: $neutrals1
+    border-bottom: $border
+.navbarLeft
+  display: flex
+  align-items: center
+  width: 60%
+  +t
+    width: 30%
+.navbarLeft form
+  margin-left: 140px
+  +f
+    margin-left: 0px
+.navbarImg
+  width: 290px
+  +t
+    width: 160px
+  
+  
+.navInput,
+.navInput2
+  padding: 0.3rem 1rem
+  // border-radius: 5px
+  width: 550px
+  +poppins
+  background-color: transparent
+  //background-color: $neutrals10
+  font-size: 16px
+  +x
+    width: 400px
+  +d
+    width: 350px
+  +dark
+    color: $neutrals8
+.navInput::-webkit-input-placeholder,
+.navInput2::-webkit-input-placeholder
+  font-size: 1rem
+.navInput:focus + svg
+  position: absolute
+  opacity: 0
+  visibility: hidden
+.navInput2
+  padding: .6rem 1rem
+  border-radius: 5px
+  border: 1px solid rgba(0, 0, 0, 0.1)
+.inputContainer
+  padding: .25rem 1rem
+  border-radius: 5px
+  border: 1px solid rgba(0, 0, 0, 0.1)
+  //background-color: $neutrals10
+  margin-left: 1rem
+  display: flex
+  align-items: center
+  transition: all .2s ease
+  svg
+    fill: #75757D
+    order: -1
+  +dark
+    +dark
+    border: 1px solid #75757D
+  +t
+    display: none
+
+.navInput2
+  display: none
+  +t
+    display: block
+    width: 85% !important
+.navInput
+  +t
+    display: none
+
+
+/* <ul> */
+.navbarNav 
+  max-width: 100%
+  height: 100%
+  display: flex
+  justify-content: flex-end
+  align-items: center
+  // & li:last-child
+  //   display: none
+  //   +m
+  //     display: block
+
+
+.navItem 
+  width: calc(70px * 0.8)
+  display: flex
+  align-items: center
+  justify-content: center
+  +a
+    width: calc(60px * 0.8)
+  +w
+    width: calc(50px * 0.8)
+
+
+/* Icon Button */
+.iconButton 
+  width: calc(80px * 0.5)
+  height: calc(80px * 0.5)
+  background-color: $neutrals9
+  border-radius: 50%
+  margin: 2px
+  display: flex
+  align-items: center
+  justify-content: center
+  transition: all 300ms
+  +m
+    width: calc(60px * 0.5)
+    height: calc(60px * 0.5)
+  &:hover 
+     background-color: $neutrals5
+  +dark
+    background-color: $neutrals2
+    &:hover
+      background-color: $neutrals3
+    // +dark
+    // background-color: $neutrals3
+    filter: brightness(1.2)
+  & svg 
+    fill: $neutrals1
+    width: 20px
+    height: 20px
+    +dark
+      fill: #fff
+  & img
+    border-radius: 50%
+.addCls
+  +m
+    display: none
+.navHide
+  display: none !important
+  +m
+    display: flex !important
+.dropdown 
+  position: absolute
+  top: 58px
+  width: 260px
+  transform: translateX(-85%)
+  background-color: #fff
+  box-shadow: 0 0rem 2rem rgba(0, 0, 0, 0.25)
+  border-radius: 8px
+  padding: 1rem
+  overflow: hidden
+  z-index: 999
+  transition: height 300ms ease
+  a
+    color: $neutrals1
+    +dark
+      color: $neutrals10
+  +dark
+    background-color: $neutrals1
+    box-shadow: 0 0.2rem 1rem rgba(35, 38, 47, 0.5)
+
+.menu 
+  width: 100%
+
+
+.menuItem 
+  height: 50px
+  display: flex
+  align-items: center
+  border-radius: 8px
+  font-size: .9rem
+  transition: background 300ms
+  padding: 0.5rem
+  margin: .5rem 0
+  cursor: pointer
+  +m
+    font-size: .75rem
+  & .iconButton
+    margin-right: 0.5rem
+  & .iconButton:hover
+    filter: none  
+  &:hover   
+    background-color: $neutrals10
+    +dark
+      background-color: $neutrals3
+.iconRight 
+  margin-left: auto
+
+  // .menu-item .icon-button 
+  // margin-right: 0.5rem
+
+// .menu-item .icon-button:hover 
+//   filter: none
+
+
+// .menu-item:hover 
+//   background-color: #525357
+
+
+// .icon-right 
+//   margin-left: auto
+.connectedPopup
+  display: flex
+  flex-direction: column
+
+.connectedChain
+  display: flex
+  align-items: center
+  justify-content: flex-end
+  margin-right: 8px
+  padding: 8px 16px
+  box-sizing: border-box
+  border-radius: 25px
+  background: #E4E6EB
+  +m
+    padding: 8px
+    margin-right: 0
+  +dark
+    background: #23262F
+
+.connectedImage
+  width: 24px
+  margin-right: 16px
+  +m
+    margin-right: 0
+  +d
+    margin-right: 0
+
+.connectedAddress
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+.connectedTitle
+  display: block
+  font-size: 14px
+  font-weight: 400
+  +m
+    display: none
+  +d
+    display: none
+  +ww
+    font-size: 10px
+  +w
+    font-size: 8px
+
+.searchContainer
+  position: absolute
+  background-color: #fff
+  top: 100%
+  right: 0
+  width: 97.2%
+  //padding: ".5rem",
+  z-index: 999
+  border-radius: 5px
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,0.14)
+
+.searchDataContainer
+  padding: .5rem
+.searchDataTitle
+  background-color: #f7f7f7
+  color: $neutrals2
+  +dark
+    color: $neutrals3
+  font-size: 18px
+  padding-left: .25rem
+  margin-bottom: .25rem
+  border-radius: .25rem
+.searchRecord
+  display: flex
+  align-items: center
+  padding: .3rem
+  cursor: pointer
+  border-radius: .25rem
+  &:hover
+    background-color: #eee
+
+.searchRecordImg
+  width: 50px
+  border-radius: 50%
+.searchRecordNoImg
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 50px
+  height: 50px
+  border-radius: 50%
+.searchRecordName
+  color:#000
+  margin-left: 10px
+  font-size: 17px
+

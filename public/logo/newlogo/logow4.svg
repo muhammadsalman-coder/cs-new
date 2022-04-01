@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 90" style="enable-background:new 0 0 600 90;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#F7F0F0;stroke-width:5;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#F4EAEA;stroke-width:5;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#F9F7F7;stroke-width:5;stroke-miterlimit:10;}
+	.st3{fill:#F4EDED;stroke:#F4F2F2;stroke-miterlimit:10;}
+	.st4{fill:#F4EFEF;stroke:#F4EDED;stroke-miterlimit:10;}
+	.st5{fill:#F4EDED;}
+	.st6{fill:#F9F2F2;}
+	.st7{font-family:'MyriadPro-Regular';}
+	.st8{font-size:57.156px;}
+</style>
+<path class="st0" d="M49.5,56.8H40c-7,0-12.7-5.7-12.7-12.7l0,0c0-7,5.7-12.7,12.7-12.7h9.5c7,0,12.7,5.7,12.7,12.7l0,0
+	C62.2,51.1,56.5,56.8,49.5,56.8z"/>
+<path class="st1" d="M90.6,57.2h-9.4c-7,0-12.7-5.7-12.7-12.7l0,0c0-7,5.7-12.7,12.7-12.7h9.4c7,0,12.7,5.7,12.7,12.7l0,0
+	C103.3,51.5,97.6,57.2,90.6,57.2z"/>
+<path class="st2" d="M131.8,57.7h-9.4c-7,0-12.7-5.7-12.7-12.7l0,0c0-7,5.7-12.7,12.7-12.7h9.4c7,0,12.7,5.7,12.7,12.7l0,0
+	C144.5,52,138.8,57.7,131.8,57.7z"/>
+<rect x="51.1" y="39.7" class="st3" width="26.8" height="9.5"/>
+<rect x="92.6" y="40.2" class="st4" width="26.8" height="9.5"/>
+<rect x="162.8" y="13.6" class="st5" width="4.1" height="62.8"/>
+<text transform="matrix(1 0 0 1 191.8879 64.5633)" class="st6 st7 st8">ChainCollection</text>
+</svg>
